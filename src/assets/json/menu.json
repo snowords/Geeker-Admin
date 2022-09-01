@@ -25,6 +25,11 @@
 					"path": "/proTable/useComponent",
 					"title": "使用 Component",
 					"icon": "menu"
+				},
+				{
+					"path": "/proTable/useTreeFilter",
+					"title": "使用 TreeFilter",
+					"icon": "menu"
 				}
 			]
 		},

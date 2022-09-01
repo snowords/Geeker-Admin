@@ -4,7 +4,15 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll.stylelint": true
 	},
-	"stylelint.validate": ["css", "less", "postcss", "scss", "vue", "sass", "html"],
+	"stylelint.validate": [
+		"css",
+		"less",
+		"postcss",
+		"scss",
+		"vue",
+		"sass",
+		"html"
+	],
 	"files.eol": "\n",
 	"cSpell.words": [
 		"acroutes",
@@ -83,5 +91,8 @@
 		"zhongyingwen",
 		"zhuti",
 		"zlevel"
+	],
+	"i18n-ally.localesPaths": [
+		"src/language"
 	]
 }
