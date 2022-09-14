@@ -13,6 +13,7 @@
 				<UploadImg
 					v-model:imageUrl="drawerData.rowData!.avatar"
 					:disabled="drawerData.isView"
+					:file-size="3"
 					:upload-style="{ width: '130px', height: '130px' }"
 					@check-validate="checkValidate('avatar')"
 				>
@@ -81,8 +82,8 @@ const acceptParams = (params: DrawerProps): void => {
 	drawerVisible.value = true;
 };
 
-const ruleFormRef = ref<FormInstance>();
 // 提交数据（新增/编辑）
+const ruleFormRef = ref<FormInstance>();
 const handleSubmit = () => {
 	ruleFormRef.value!.validate(async valid => {
 		if (!valid) return;
